@@ -1,16 +1,14 @@
 
 /* ----------------------------------------------------------------------------
- * Copyright (c) 2026 Sohaib Ali Jaffery
  * 
- * Author:  Sohaib Ali Jaffery <sohaibjaffery@outlook.com>
- * GitHub:  github.com/SohaibAliJaffery
+ * Acknowledgments:
+ * This RAM module is based on the work of Yasir Javed.
+ * Original repository: https://github.com/yasir-javed/bram_xilinxise
  * 
- * This file is part of a single-cycle RV32I processor implementation.
- * ------------------------------------------------------------------------- */
-
-/* 
-Generic flop based single port Ram with byte enables. Reads on same cycle 
-*/
+ * Description:
+ * Generic flop-based single-port RAM with byte enables. Reads on same cycle.
+ * 
+ * --------------------------------------------------------------------------- */
 
 module RamSp 
 #( 
