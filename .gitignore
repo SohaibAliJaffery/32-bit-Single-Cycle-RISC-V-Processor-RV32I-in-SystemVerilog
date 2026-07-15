@@ -1,0 +1,15 @@
+# ModelSim / Questa generated files
+work/
+vsim.wlf
+transcript
+modelsim.ini
+
+# Common simulator logs and temporary artifacts
+*.log
+*.vcd
+*.fst
+*.vstf
+
+# OS/editor clutter
+.DS_Store
+Thumbs.db
