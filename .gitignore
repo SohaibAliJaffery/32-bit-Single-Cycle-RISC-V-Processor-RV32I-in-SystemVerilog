@@ -10,6 +10,10 @@ modelsim.ini
 *.fst
 *.vstf
 
+# Sensitive simulator/project files
+*.cr.mti
+*.mpf
+
 # OS/editor clutter
 .DS_Store
 Thumbs.db
